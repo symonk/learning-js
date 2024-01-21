@@ -1,3 +1,3 @@
 // Hello World in javascript.
 
-console.log("Hello World")
+console.log('Hello World');

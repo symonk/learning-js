@@ -9,6 +9,6 @@ and objects etc.*/
 
 // ... any code before the declaration would not have strict applied.
 
-"use strict";
+'use strict';
 
 // ... code here!

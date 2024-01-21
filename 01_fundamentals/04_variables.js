@@ -6,19 +6,20 @@ to declare variables.  We won't cover 'scope' here, more on that later.  */
 let message;
 
 // Assign a value to the name 'message'.
-message = "Hello";
+message = 'Hello';
 
 // The string is now saved in memory associated with the name 'message'
 // We can reference the data using the variable name.
 console.log(message);
 
-
 // It is possible to assign a variable to a value in one line also
-let assigned = "Assigned!";
+let assigned = 'Assigned!';
 console.log(assigned);
 
 // We can also assign many variables, in a single line
-let name = 'George', age = 20, description = "A man called George.";
+let name = 'George',
+  age = 20,
+  description = 'A man called George.';
 
 // However, the above is preferred to be written as such for readability:
 let newName = 'George';
@@ -29,17 +30,17 @@ let newDescription = 'A man called George.';
 // the same as 'let' we will cover that later.
 
 // Reassigning variables is possible
-let initial = "foo";
-initial = "bar";
+let initial = 'foo';
+initial = 'bar';
 console.log(initial); // "Bar"
 
 // Copying is also possible
-let copyable = "copy";
+let copyable = 'copy';
 let receiver;
 receiver = copyable;
 
 // Redefining a variable with the same name, causes an error
-let first = "first";
+let first = 'first';
 // let first = "1st"; - This is not allowed.
 
 /* There are two main limitations to variable naming in javascript
