@@ -15,6 +15,18 @@ function Numbers() {
 
     variableNumber = 10.20;
     console.log("We can assign a previous integer to a floating point number", variableNumber);
+
+    // There are some special number constants for numbers, these are:
+    // Infinity
+    let infinity = 1 / 0;
+    console.log(infinity);
+    
+    // negative infinity
+    console.log(-Infinity);
+
+    // NAN (not a number)
+    let nan = "foo" / 10;
+    console.log(nan);
 }
 
 
