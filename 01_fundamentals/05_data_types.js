@@ -90,7 +90,27 @@ function Undefined() {
     // Something is undefined when its value has not been assigned.
     var age;
     console.log(age);
-    console.log(typeof age == undefined);
+    console.log(typeof age == "undefined");
+}
+
+// User defined objects
+function ObjectsAndSymols() {
+    // Todo: Touch on this later once we've covered objects;
+}
+
+// The typeof builtin function
+function TypeOf() {
+    //The typeof builtin function returns the type of the operand.
+    console.log(typeof "foo" === "string");
+    console.log(typeof 0 === "number");
+    console.log(typeof 0n === "bigint");
+    console.log(typeof true === "boolean");
+    // More on this later.
+    console.log(typeof Symbol("id") === "symbol");
+    console.log(typeof Math === "object");
+    console.log(typeof null === "object");
+    console.log(typeof ObjectsAndSymols === "function");
+
 }
 
 
@@ -102,6 +122,8 @@ function Main() {
     Booleans();
     Null();
     Undefined();
+    ObjectsAndSymols();
+    TypeOf();
 }
 
 
