@@ -17,3 +17,10 @@ in learning `golang` also check out my learning-golang module [here](https://www
 - [Fundamentals | Alert, Prompt, Confirm](01_fundamentals/06_alert_prompt_confirm.js)
 - [Fundamentals | Type Conversions](01_fundamentals/07_type_conversions.js)
 -
+-
+-
+-
+-
+-
+-
+- [Fundamentals | Functions](01_fundamentals/15_functions.js)
