@@ -67,6 +67,32 @@ function Strings() {
     // Javascript does NOT have a char type for a single code point!
 }
 
+// The boolean data type
+function Booleans() {
+    let isTrue = true;
+    let isFalse = false;
+    console.log(isTrue);
+    console.log(isFalse);
+}
+
+
+// The null data type
+function Null() {
+    // Unlike other languages, null in javascript is not a reference to a non existing object
+    // or a null pointer like in some languages such as golang etc.
+    let age = null;
+    console.log(age);
+}
+
+// The underfined data type
+function Undefined() {
+    // Very similar to null, however a different meaning.
+    // Something is undefined when its value has not been assigned.
+    var age;
+    console.log(age);
+    console.log(typeof age == undefined);
+}
+
 
 
 function Main() {
@@ -74,6 +100,8 @@ function Main() {
     BigIntegers();
     Strings();
     Booleans();
+    Null();
+    Undefined();
 }
 
 
