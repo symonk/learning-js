@@ -63,12 +63,35 @@ function NestedBreaksAndLabels() {
   console.log('Finished!');
 }
 
+function ForIn() {
+  // The for in construct is available for traversing objects;
+  console.log('For in looping!');
+  const myObject = {
+    name: 'George',
+    age: 20,
+  };
+  for (let key in myObject) {
+    console.log('key', '=>', myObject[key]);
+  }
+}
+
+function ForOf() {
+  // The for of construct for iterating iterables.
+  console.log('For of looping!');
+  const fruits = ['Apple', 'Orange', 'Plums'];
+  for (let fruit of fruits) {
+    console.log(fruit);
+  }
+}
+
 function Main() {
   WhileLoop();
   DoWhileLoop();
   ForLoop();
   ContinueAndBreak();
   NestedBreaksAndLabels();
+  ForIn();
+  ForOf();
 }
 
 Main();
