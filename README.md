@@ -9,7 +9,7 @@ in learning `golang` also check out my learning-golang module [here](https://www
 
 ### Table Of Contents:
 
-- [Fundamentals]
+- Fundamentals
 
   - [Hello World](01_fundamentals/01_hello_world.js)
   - [Statements](01_fundamentals/02_statements.js)
@@ -29,15 +29,3 @@ in learning `golang` also check out my learning-golang module [here](https://www
   - [Function Expressions](01_fundamentals/16_function_expressions.js)
   - [Arrow Functions](01_fundamentals/17_arrow_functions.js)
   - [Javascript Specials](01_fundamentals/18_arrow_functions.js)
-
-- [Code Quality]
-
-  - [...]()
-
-- [Objects]
-
-  - [...]()
-
-- [Advanced Functions] -[...]()
-
-- [Data Types] -[...]()
